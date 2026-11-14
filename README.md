@@ -188,7 +188,7 @@ Citra diubah ke biner dengan ambang (*threshold*) 127.
 Tambahkan tangkapan layar hasil di sini, misalnya disimpan di folder `docs/`:
 
 ```markdown
-![Hasil transformasi intensitas](docs/hasil-ti-eq.png)
+![Hasil transformasi intensitas]('data/hasil-ti-eq.png')
 ![Hasil filter spasial](docs/hasil-filter-spasial.png)
 ![Hasil model warna](docs/hasil-model-warna.png)
 ![Hasil morfologi](docs/hasil-morfologi.png)
