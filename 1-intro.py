@@ -4,6 +4,7 @@ Created on Tue Sep 15 00:09:45 2026
 
 @author: ASUS
 """
+# Image Filtering
 
 import cv2
 import numpy as np
@@ -22,7 +23,8 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 cv2.waitKey(1)
 
-'''
+# Video Filtering
+
 cap = cv2.VideoCapture(0)
 
 while True:
@@ -30,8 +32,8 @@ while True:
     
     for i in range(frame.shape[0]):
         for j in range(frame.shape[1]):
-            frame[i,j,0] = 0
             frame[i,j,1] = 0
+            frame[i,j,2] = 0
     
     cv2.imshow('Frame', frame)
     if cv2.waitKey(40) & 0xFF == ord('q'):
@@ -39,4 +41,3 @@ while True:
 
 cap.release()
 cv2.destroyAllWindows()
-'''
