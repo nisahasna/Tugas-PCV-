@@ -183,17 +183,6 @@ Citra diubah ke biner dengan ambang (*threshold*) 127.
 
 **Output:** grid 5 citra (biner asli, erosi, dilasi, opening, closing).
 
-## Hasil
-
-Tambahkan tangkapan layar hasil di sini, misalnya disimpan di folder `docs/`:
-
-```markdown
-![Hasil transformasi intensitas]('data/hasil-ti-eq.png')
-![Hasil filter spasial](docs/hasil-filter-spasial.png)
-![Hasil model warna](docs/hasil-model-warna.png)
-![Hasil morfologi](docs/hasil-morfologi.png)
-```
-
 ## Catatan Penting
 
 - **Kecepatan:** semua operasi memakai loop piksel manual sehingga lambat pada citra besar. Untuk uji coba, perkecil citra, misalnya `img = cv2.resize(img, (320, 240))`.
